@@ -45,7 +45,8 @@ def Training_process(df):
     X_test = feature_variable[int(0.8*len(df)):]
     Y_test = output_variable[int(0.8*len(df)):]
 
-    # tieu chuan hoa du lieu
+# tieu chuan hoa du lieu
+#     print(tabulate(df, headers="keys", tablefmt="psql"))
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
