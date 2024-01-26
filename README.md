@@ -1,6 +1,6 @@
 # [PYTHON] Titanic Survival Prediction
 # Introduction
-- This project is inspired by the Kaggle challenge "Machine Learning From Disaster".
+- This project inspired by the Kaggle challenge "Machine Learning From Disaster".
 - Dataset: https://www.kaggle.com/competitions/titanic/data
 - I implemented the solution using sklearn for machine learning, including custom code for train-test splitting and preprocessing.
 - Aimed at beginners in AI, especially those interested in machine learning.
